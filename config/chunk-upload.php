@@ -1,6 +1,6 @@
 <?php
 /**
- * @see https://github.com/pionl/laravel-chunk-upload
+ * @see https://github.com/ninhtqse/chunk-upload
  */
 
 return [
@@ -38,7 +38,7 @@ return [
         'custom' => [],
         // Overrides the list of handlers - use only what you really want
         'override' => [
-            // \Pion\Laravel\ChunkUpload\Handler\DropZoneUploadHandler::class
+            // \Ninhtqse\Laravel\ChunkUpload\Handler\DropZoneUploadHandler::class
         ],
     ],
 ];

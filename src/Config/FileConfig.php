@@ -1,6 +1,6 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Config;
+namespace Ninhtqse\Laravel\ChunkUpload\Config;
 
 /**
  * Class FileConfig.

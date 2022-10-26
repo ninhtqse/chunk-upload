@@ -1,10 +1,10 @@
 # Laravel Chunk Upload
 
-[![Total Downloads](https://poser.pugx.org/pion/laravel-chunk-upload/downloads?format=flat)](https://packagist.org/packages/pion/laravel-chunk-upload)
+[![Total Downloads](https://poser.pugx.org/ninhtqse/laravel-chunk-upload/downloads?format=flat)](https://packagist.org/packages/ninhtqse/laravel-chunk-upload)
 [![Build Status](https://github.com/pionl/laravel-chunk-upload/workflows/build/badge.svg)](https://github.com/pionl/laravel-chunk-upload/actions)
-[![Latest Stable Version](https://poser.pugx.org/pion/laravel-chunk-upload/v/stable?format=flat)](https://packagist.org/packages/pion/laravel-chunk-upload)
-[![Latest Unstable Version](https://poser.pugx.org/pion/laravel-chunk-upload/v/unstable?format=flat)](https://packagist.org/packages/pion/laravel-chunk-upload)
-[![License](https://poser.pugx.org/pion/laravel-chunk-upload/license)](https://packagist.org/packages/pion/laravel-chunk-upload)
+[![Latest Stable Version](https://poser.pugx.org/ninhtqse/laravel-chunk-upload/v/stable?format=flat)](https://packagist.org/packages/ninhtqse/laravel-chunk-upload)
+[![Latest Unstable Version](https://poser.pugx.org/ninhtqse/laravel-chunk-upload/v/unstable?format=flat)](https://packagist.org/packages/ninhtqse/laravel-chunk-upload)
+[![License](https://poser.pugx.org/ninhtqse/laravel-chunk-upload/license)](https://packagist.org/packages/ninhtqse/laravel-chunk-upload)
 
 ## Introduction
 
@@ -23,13 +23,13 @@ Example repository with **integration tests** can be found in [laravel-chunk-upl
 **1. Install via composer**
 
 ```
-composer require pion/laravel-chunk-upload
+composer require ninhtqse/laravel-chunk-upload
 ```
 
 **2. Publish the config (Optional)**
 
 ```
-php artisan vendor:publish --provider="Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
+php artisan vendor:publish --provider="Ninhtqse\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
 ```
 
 ## Usage

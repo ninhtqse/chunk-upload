@@ -1,11 +1,11 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Ninhtqse\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use Ninhtqse\Laravel\ChunkUpload\Config\AbstractConfig;
+use Ninhtqse\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
 
 class DropZoneUploadHandler extends ChunksInRequestUploadHandler
 {

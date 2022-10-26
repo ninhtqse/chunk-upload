@@ -1,16 +1,16 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Receiver;
+namespace Ninhtqse\Laravel\ChunkUpload\Receiver;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\UploadFailedException;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Pion\Laravel\ChunkUpload\Save\AbstractSave;
-use Pion\Laravel\ChunkUpload\Save\ChunkSave;
-use Pion\Laravel\ChunkUpload\Save\SingleSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Ninhtqse\Laravel\ChunkUpload\Config\AbstractConfig;
+use Ninhtqse\Laravel\ChunkUpload\Exceptions\UploadFailedException;
+use Ninhtqse\Laravel\ChunkUpload\Handler\AbstractHandler;
+use Ninhtqse\Laravel\ChunkUpload\Save\AbstractSave;
+use Ninhtqse\Laravel\ChunkUpload\Save\ChunkSave;
+use Ninhtqse\Laravel\ChunkUpload\Save\SingleSave;
+use Ninhtqse\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class FileReceiver
 {

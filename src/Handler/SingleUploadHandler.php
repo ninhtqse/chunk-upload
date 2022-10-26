@@ -1,10 +1,10 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Ninhtqse\Laravel\ChunkUpload\Handler;
 
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Save\SingleSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Ninhtqse\Laravel\ChunkUpload\Config\AbstractConfig;
+use Ninhtqse\Laravel\ChunkUpload\Save\SingleSave;
+use Ninhtqse\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class SingleUploadHandler.

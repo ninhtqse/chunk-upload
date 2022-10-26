@@ -1,13 +1,13 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Ninhtqse\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\Save\ChunkSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Ninhtqse\Laravel\ChunkUpload\Config\AbstractConfig;
+use Ninhtqse\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use Ninhtqse\Laravel\ChunkUpload\Save\ChunkSave;
+use Ninhtqse\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ChunksInRequestUploadHandler.

@@ -1,17 +1,17 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Save;
+namespace Ninhtqse\Laravel\ChunkUpload\Save;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
-use Pion\Laravel\ChunkUpload\ChunkFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\Exceptions\MissingChunkFilesException;
-use Pion\Laravel\ChunkUpload\FileMerger;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Pion\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Ninhtqse\Laravel\ChunkUpload\ChunkFile;
+use Ninhtqse\Laravel\ChunkUpload\Config\AbstractConfig;
+use Ninhtqse\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use Ninhtqse\Laravel\ChunkUpload\Exceptions\MissingChunkFilesException;
+use Ninhtqse\Laravel\ChunkUpload\FileMerger;
+use Ninhtqse\Laravel\ChunkUpload\Handler\AbstractHandler;
+use Ninhtqse\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use Ninhtqse\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ParallelSave.

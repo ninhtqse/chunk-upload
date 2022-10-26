@@ -1,6 +1,6 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Storage;
+namespace Ninhtqse\Laravel\ChunkUpload\Storage;
 
 use Illuminate\Contracts\Filesystem\Filesystem as FilesystemContract;
 use Illuminate\Support\Collection;
@@ -8,8 +8,8 @@ use Illuminate\Filesystem\FilesystemAdapter;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\Local\LocalFilesystemAdapter;
 use League\Flysystem\FilesystemInterface;
-use Pion\Laravel\ChunkUpload\ChunkFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
+use Ninhtqse\Laravel\ChunkUpload\ChunkFile;
+use Ninhtqse\Laravel\ChunkUpload\Config\AbstractConfig;
 use RuntimeException;
 
 class ChunkStorage
